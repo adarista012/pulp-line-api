@@ -17,6 +17,9 @@ export class Book {
     @Prop()
     price: number;
 
+    @Prop()
+    timeEpoch: number;
+
 }
 
 export const BookSchema = SchemaFactory.createForClass(Book)
